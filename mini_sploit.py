@@ -14,13 +14,10 @@ which is an older version of the MiniShare application
 -------------------------------------------------------------------------
 test platiform:
 --------------
-Finally I tested this on windows xp sp2
+Finally I tested this on windows xp sp3
 Thats all there is to the documentation!
-------------------------------------------------------------------------
-*********code by************
-------------------------------------------------------------------------
-daniel maluki a.k.a ch!m3ra:  http://www.chimera40.wordpress.com
-email:gillet5440@gmail.com
+author:ch!m3ra  http://www.chimera40.wordpress.com
+
 ########################################################################
 '''
 import getopt 
