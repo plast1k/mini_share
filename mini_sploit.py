@@ -147,7 +147,7 @@ def send_data():
         my_socket.close()
     except:
         print color.RED + "\nSploit FAILED ! check out that the remote host is really interested,ready or both :("
-        print "Check out the kind of IP you gave coz if it's gabagge then........well its not being checked!"
+        print "Check out the kind of IP you gave....well its not being checked!"
 	print my_socket.recv(1024)
 print_answer()
 #END
