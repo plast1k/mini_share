@@ -3,21 +3,11 @@
 ------------------------------------------------------------------------
 ********documentation*********
 ------------------------------------------------------------------------
-what it is:
------------	
-This is a simple stack based buffer over flow exploit. I wrote this one using the
-guides from lupin's blog http://grey-corner.blogspot.com
-then decided to go a step a head and take options from the command line
-as well use a meterpreter payload.
-It exploits a vulnerability in a Windows application MiniShare 1.4.1. 
+a simple stack based buffer over flow exploit. 
+exploits a vulnerability in a Windows application MiniShare 1.4.1. 
 which is an older version of the MiniShare application   
 -------------------------------------------------------------------------
-test platiform:
---------------
-Finally I tested this on windows xp sp3
-Thats all there is to the documentation!
-author:ch!m3ra  http://www.chimera40.wordpress.com
-
+tested this on windows xp sp3
 ########################################################################
 '''
 import getopt 
@@ -46,7 +36,7 @@ def about():
     print color.BLUE +"\t###################################################################"
     print color.BLUE +"\t#"+ color.RED +"============++++++"+color.GREEN +" minisploit.py ver 0.1 "+color.RED +"++++++++++=============="+color.RED +"#"
     color.DEFAULT_COLOR
-    print color.BLUE +"\t#"+ color.PINK +"--------by ch!m3ra: http://www.chimera40.wordpress.com-----------"+color.BLUE +"#"
+    print color.BLUE +"\t#"+ color.PINK +"----------------------by plast1k  -------------------------------"+color.BLUE +"#"
     print color.BLUE +"\t#"+ color.PINK +"=============++++++++++++++++++++++++++++++++++++++=============="+color.BLUE +"#"
     print color.BLUE +"\t###################################################################"
     print color.DEFAULT_COLOR
@@ -150,8 +140,4 @@ def send_data():
         print "Check out the kind of IP you gave....well its not being checked!"
 	print my_socket.recv(1024)
 print_answer()
-#END
-''' update through svn
-well you can get the latest copy at http://code.google.com/chimeraproject/p/mini_sploit.py
-'''
-   
+#END   
